@@ -1,4 +1,4 @@
-Feature: Testing a REST API
+Feature: Data Service
   Users should be able to submit Data requests to a web service, 
   represented by WireMock
 
