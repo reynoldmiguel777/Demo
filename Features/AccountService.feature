@@ -1,6 +1,5 @@
-Feature: Account Testing
-  Scenario: Verify GET request
-    Given the API endpoint "/api/resource"
-    When I send GET request
-    Then the response status code is should be 200
-    And the response body should contain "Expected content"
+Feature: Account
+  Scenario: As a Bank Admin, I would like to see accounts
+    Given I am Logged in and Authenticated
+    When I retrive list of Accounts
+    Then I will see list of Accounts
